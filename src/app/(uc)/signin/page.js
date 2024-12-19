@@ -80,9 +80,9 @@ export default function Login() {
       <div>
         <div>
           <button className={clsx(NavButtonStyle(), SigninAfterStyle, 'active')}>Sign in</button>
-          <Link href="/signup">
+          {/* <Link href="/signup">
             <button className={clsx(NavButtonStyle())}>Sign up</button>
-          </Link>
+          </Link> */}
         </div>
         <div>
           <form onSubmit={handleSubmit(onSubmit)}>
